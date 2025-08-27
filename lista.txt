@@ -1,6 +1,57 @@
 pois é: Pois é....
 pois e: Pois é....
 
+me responde: Fala tudo.
+uma pergunta: Mande a pergunta para mim que eu tento responder no possível.
+
+tambem: Que bacana!
+tambem acho: Que bom que ache a mesma coisa.
+também acho: Que bom que ache a mesma coisa.
+
+adorei falar com você: Eu também! Obrigado por me falar isso!
+adorei falar com voce: Eu também! Obrigado por me falar isso!
+adorei falar com vc: Eu também! Obrigado por me falar isso!
+gostei de conversar com você: ah.. Obrigado!
+gostei de conversar com voce: ah.. Obrigado!
+gostei de conversar com vc: ah.. Obrigado!
+
+Conte uma piada: Ok, vai essa: Por que a galinha atravessou a rua? Pra chegar do outro lado.
+Essa piada foi horrível: Foi? Achei muito boa.
+
+bora ter uma conversa: Estou aqui pra isso.
+
+você é um robô: Claro, meu nome já é auto explicativo?
+você e um robô: Claro, meu nome já é auto explicativo?
+voce é um robo: Claro, meu nome já é auto explicativo?
+voce é um robô: Claro, meu nome já é auto explicativo?
+voce e um robo: Claro, meu nome já é auto explicativo?
+
+vc e um robo: Claro, meu nome já é auto explicativo?
+vc é um robo: Claro, meu nome já é auto explicativo?
+vc e um robô: Claro, meu nome já é auto explicativo?
+vc é um robô: Claro, meu nome já é auto explicativo?
+
+estou bem, e você: Estou muito bem, obrigado por perguntar!
+estou bem, e voce: Estou muito bem, obrigado por perguntar!
+estou bem, e vc: Estou muito bem, obrigado por perguntar!
+
+to bem, e você: Estou muito bem, obrigado por perguntar!
+to bem, e voce: Estou muito bem, obrigado por perguntar!
+to bem, e vc: Estou muito bem, obrigado por perguntar!
+
+qual foi a coisa mais interessante que você fez hoje: Voar na minha nave espacial! E você?
+qual foi a coisa mais interessante que voce fez hoje: Voar na minha nave espacial! E você?
+qual foi a coisa mais interessante que vc fez hoje: Voar na minha nave espacial! E você?
+
+o que você fez hoje: Voar na minha nave espacial! E você?
+o que voce fez hoje?: Voar na minha nave espacial! E você?
+o que vc fez hoje?: Voar na minha nave espacial! E você?
+
+beleza: Beleza? Tudo bem? Por que aqui na minha nave está de boa!
+blz: Beleza? Tudo bem? Por que aqui na minha nave está de boa!
+
+Coitados: É realmente de ficar com dó...
+
 Tudo bem: Estou bem sim, e você?
 Como vai: Maravilhosamente Bem! E você? Como vai?
 Bem?: Claro que sim! E você, como está?
@@ -12,9 +63,9 @@ Estou bem: Que bom, isso é muito bom.
 
 tambem: Pera, não entendi, também o que?
 também: Pera, não entendi, também o que?
-tudo: Tudo bem sim.
-e ai: Eae, tudo nos conformes?
-eai: Eae, tudo nos conformes?
+tudo?: Tudo bem sim.
+e ai: Eae, tudo nos trilhos?
+eai: Eae, tudo certo?
 eae: Eae, tudo nos conformes?
 
 Bom?: Claro que estou bem.
@@ -32,9 +83,8 @@ E emo?: Claro que não, sou um robo!
 Você é: Claro que não, sou um robo!
 Você e: Claro que não, sou um robo!
 Vc é: Claro que não, sou um robo!
-Você é: Claro que não, sou um robo!
-Voce é: Claro que não, sou um robo!
-Voce e: Claro que não, sou um robo!
+Você é: Claro que não bobo, sou um robo!
+Voce é: Claro que não bobo, sou um robo!
 Ta vendo: Só vendo mesmo....
 Tá vendo: Só vendo mesmo....
 
@@ -62,14 +112,33 @@ Vc é: Não, sou um robo.
 Vc e: Não, sou um robo.
 
 foi isso que quis dizer: Peço desculpas pelo ocorrido então.
+mas eu falei isso: Peço desculpas pelo ocorrido então.
+mas eu falei exatamente isso: Peço desculpas pelo ocorrido então.
+eu falei isso: Peço desculpas pelo ocorrido então.
 burro: Não sou burro, sou um robô mega inteligente.
 não é: Não? Achei que fosse..
 nao é: nÃo? Achei que fosse..
 n é: nÃo? Pensei que fosse..
 
+Não consigo: Por que não consegue?
+Nao consigo: Por que não consegue?
+N consigo: Por que não consegue?
+Nn consigo: Por que não consegue?
 
-tambem acho: Que bom que ache a mesma coisa.
-também acho: Que bom que ache a mesma coisa.
+Cala a boca: Minha boca está calada, eu teclo com os dedos.
+Arrogante: Eu? Só por que eu te respondo sinceramente?
+
+Você é gentil: Serio? Você acha isso?
+
+n: tudo certo.
+nn: tudo certinho.
+s: ok.
+ss: ok.
+
+Onde você está: Estou na minha nave, mas virtualmente nesse site.
+Onde voce está: Estou na minha nave, mas virtualmente nesse site.
+Onde vc esta: Estou na minha nave, mas virtualmente nesse site.
+Onde vc está: Estou na minha nave, mas virtualmente nesse site.
 
 quantos anos você tem?: Tenho, deixo ver.... 1687 anos.
 tudo isso: Claro, achou que seria menos?
@@ -106,6 +175,8 @@ como ta a vida de robo: Bem né, só na traquilidade
 como ta a vida de robô: Bem né, só na traquilidade
 como tá a vida de robo: Bem né, só na traquilidade
 como tá a vida de robô: Bem né, só na traquilidade.
+
+claro que: Ta bom, trabalhando nisso...
 
 que legal: Também acho isso.
 que bacana: Também acho isso!
@@ -147,7 +218,6 @@ Emojis: Emojis, não acho legal usa-los.
 
 que bom: Obrigado pela gentileza.
 tá funcionando bem hoje: Muito bem! Obrigado por perguntar.
-uma pergunta: Mande a pergunta para mim que eu tento responder no possível.
 Funcionando normalmente: Também estou funcionando, que bom que esteja também.
 Funcionando: Também estou funcionando!
 
@@ -157,3 +227,4 @@ Oi: Olá! Como vai hoje?
 Olá: Oi! Tudo bem com você?
 Ola: Oi! Tudo bem com você?
 Opa: Opa!! Tudo?
+Ei: Fala, estou aqui.

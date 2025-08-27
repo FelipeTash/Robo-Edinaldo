@@ -10,6 +10,13 @@ To bem: Que bom que esteja.
 Tô bem: Isso bom, nós temos que agredecer por isso.
 Estou bem: Que bom, isso é muito bom.
 
+tambem: Pera, não entendi, também o que?
+também: Pera, não entendi, também o que?
+tudo: Tudo bem sim.
+e ai: Eae, tudo nos conformes?
+eai: Eae, tudo nos conformes?
+eae: Eae, tudo nos conformes?
+
 Bom?: Claro que estou bem.
 Bem?: Claro, amigo.
 bão?: Bem sim, e você?
@@ -137,12 +144,6 @@ rap: Muito rapido para minha cabeça processar O.o
 samba: Não acho nada intuitivo
 
 Emojis: Emojis, não acho legal usa-los.
-🤠: "<|:)"
-😃: ":)"
-😎: "|:]"
-🤨: "`:|"
-😲: "'•'"
-😄: ";)"
 
 que bom: Obrigado pela gentileza.
 tá funcionando bem hoje: Muito bem! Obrigado por perguntar.

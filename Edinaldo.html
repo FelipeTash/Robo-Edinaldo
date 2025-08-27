@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Robô Edinaldo</title>
+  <style>
+    body {
+      font-family: Tahoma, Verdana, sans-serif;
+      background: linear-gradient(135deg, #b2c6ff, #e5f0ff);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+    #janela {
+      width: 480px;
+      height: 540px;
+      background: rgba(255, 255, 255, 0.85);
+      border: 2px solid #6a8dff;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      display: flex;
+      flex-direction: column;
+      backdrop-filter: blur(6px);
+    }
+
+    #titulo {
+      background: linear-gradient(to right, #6a8dff, #4a6ce0);
+      padding: 8px 12px;
+      color: white;
+      font-weight: bold;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: inset 0 -2px 4px rgba(0,0,0,0.2);
+    }
+
+    #chat {
+      flex: 1;
+      padding: 12px;
+      overflow-y: auto;
+      background: rgba(255, 255, 255, 0.6);
+      border-bottom: 2px solid #6a8dff;
+      font-size: 14px;
+    }
+
+    .msg {
+      margin: 8px 0;
+      padding: 8px 12px;
+      border-radius: 10px;
+      max-width: 70%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .user {
+      background: linear-gradient(to bottom, #d8f0ff, #a6d9ff);
+      align-self: flex-end;
+    }
+
+    .bot {
+      background: linear-gradient(to bottom, #f1f1f1, #d9d9d9);
+      border: 1px solid #b0b0b0;
+      align-self: flex-start;
+    }
+
+    #input-area {
+      display: flex;
+      padding: 8px;
+      background: linear-gradient(to top, #f0f6ff, #ffffff);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    input {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #6a8dff;
+      border-radius: 6px;
+      outline: none;
+      font-size: 14px;
+      background: #ffffffcc;
+    }
+
+    button {
+      margin-left: 6px;
+      padding: 8px 14px;
+      border: 1px solid #4a6ce0;
+      border-radius: 6px;
+      background: linear-gradient(to bottom, #6a8dff, #4a6ce0);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+    }
+
+    button:hover {
+      background: linear-gradient(to bottom, #7b9cff, #5a7df0);
+    }
+  </style>
+</head>
+<body>
+  <div id="janela">
+    <div id="titulo">💬 Robô Edinaldo</div>
+    <div id="chat"></div>
+    <div id="input-area">
+      <input type="text" id="mensagem" placeholder="Digite sua mensagem...">
+      <button onclick="enviar()">Enviar Mensagem</button>
+    </div>
+  </div>
+
+  <script>
+    let respostas = [];
+
+    // Carrega lista.txt com sinônimos
+    fetch("lista.txt")
+      .then(resp => resp.text())
+      .then(texto => {
+        respostas = [];
+        texto.split("\n").forEach(linha => {
+          if (linha.includes(":")) {
+            const [chaves, valor] = linha.split(":");
+            const listaChaves = chaves.split(",").map(k => k.trim().toLowerCase());
+            respostas.push({ chaves: listaChaves, resposta: valor.trim() });
+          }
+        });
+      })
+      .catch(err => console.error("Erro ao carregar lista:", err));
+
+    const chat = document.getElementById("chat");
+    const input = document.getElementById("mensagem");
+
+    function adicionarMensagem(texto, classe) {
+      const msg = document.createElement("div");
+      msg.textContent = texto;
+      msg.classList.add("msg", classe);
+      chat.appendChild(msg);
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    function enviar() {
+      const texto = input.value.trim();
+      if (!texto) return;
+
+      adicionarMensagem("Você: " + texto, "user");
+      input.value = "";
+
+      const resposta = analisarMensagem(texto);
+      setTimeout(() => {
+        adicionarMensagem("Robô Ed: " + resposta, "bot");
+      }, 400);
+    }
+
+    function analisarMensagem(mensagem) {
+      const lower = mensagem.toLowerCase();
+      for (let item of respostas) {
+        for (let chave of item.chaves) {
+          if (lower.includes(chave)) {
+            return item.resposta;
+          }
+        }
+      }
+      return "Não entendi o que você quis dizer.";
+    }
+
+    input.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") enviar();
+    });
+  </script>
+</body>
+</html>

@@ -113,17 +113,21 @@
   <script>
     let respostas = [];
 
-    // Carrega lista.txt com sinônimos
+    // Carrega lista.txt com sinônimos (robusto a comentários e espaços)
     fetch("lista.txt")
       .then(resp => resp.text())
       .then(texto => {
         respostas = [];
-        texto.split("\n").forEach(linha => {
-          if (linha.includes(":")) {
-            const [chaves, valor] = linha.split(":");
-            const listaChaves = chaves.split(",").map(k => k.trim().toLowerCase());
-            respostas.push({ chaves: listaChaves, resposta: valor.trim() });
-          }
+        texto.split("\n").forEach(linhaBruta => {
+          const linha = linhaBruta.trim();
+          if (!linha || linha.startsWith("#") || linha.startsWith("//")) return;
+          const idx = linha.indexOf(":");
+          if (idx === -1) return;
+          const chaves = linha.slice(0, idx);
+          const valor = linha.slice(idx + 1);
+          const listaChaves = chaves.split(",").map(k => k.trim().toLowerCase()).filter(Boolean);
+          if (!listaChaves.length) return;
+          respostas.push({ chaves: listaChaves, resposta: valor.trim() });
         });
       })
       .catch(err => console.error("Erro ao carregar lista:", err));

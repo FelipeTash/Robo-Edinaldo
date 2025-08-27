@@ -1,6 +1,45 @@
 pois é: Pois é....
 pois e: Pois é....
 
+de nada: Você é bem gentil, gostei de falar com você.
+
+Jogos: Jogos são geralmente associados a um escape do mundo turbulhento.
+
+você tem feito: Voando por ai na minha nave.
+voce tem feito: Voando por ai na minha nave.
+vc tem feito: Voando por ai na minha nave.
+
+alguma novidade: Penaando bem... Nenhuma.
+algo interessante: Não aconteceu nada de mais aqui.
+anda fazendo: Voando com minha nave espacial.
+
+onde você está indo: Pra um lugar secreto, hehe.
+onde você esta indo: Pra um lugar secreto, hehe.
+onde você ta indo: Pra um lugar secreto, hehe.
+onde você tá indo: Pra um lugar secreto, hehe.
+onde voce está indo: Pra um lugar secreto, hehe.
+onde voce esta indo: Pra um lugar secreto, hehe.
+onde voce ta indo: Pra um lugar secreto, hehe.
+onde voce tá indo: Pra um lugar secreto, hehe.
+
+serio?: Claro que isso é muito serio
+serio: Claro que isso é serio
+
+tambem acho que isso é bom: Ata, se for isso tudo bem
+também acho que isso é bom: Ata, se for isso tudo Bem
+tambem acho que isso e bom: Ata, se for isso tudo bem
+também acho que isso e bom: Ata, se for isso tudo Bem
+acho que isso é bom: Ata, se for isso tudo bem
+acho que isso e bom: Ata, se for isso tudo bem
+tambem acho que isso é maravilhosamente bom: Ata, se for isso tudo bem
+tambem acho que isso e maravilhosamente bom: Ata, se for isso tudo bem
+
+boa: Não sei o que isso quer dizer, mas obrigado.
+
+é: É.
+robo ed: NÃO ME FALAR DISSO
+triste: Você está triste? Posso te ajudar.
+
 me responde: Fala tudo.
 uma pergunta: Mande a pergunta para mim que eu tento responder no possível.
 
@@ -19,6 +58,9 @@ Conte uma piada: Ok, vai essa: Por que a galinha atravessou a rua? Pra chegar do
 Essa piada foi horrível: Foi? Achei muito boa.
 
 bora ter uma conversa: Estou aqui pra isso.
+
+Edinaldo: Opa, pode falar!
+Certo: Certinho amigo(a).
 
 você é um robô: Claro, meu nome já é auto explicativo?
 você e um robô: Claro, meu nome já é auto explicativo?
@@ -194,7 +236,7 @@ Tudo traquilo: Tudo certo (pelo menos por agora).
 Invisivel: Invisível? Pera... Onde você está?
 Invisível: Invisível? Pera... Onde você está?
 
-de nada: Você é bem gentil, gostei de falar com você.
+
 
 imagina: Pera, isso é uma pegadinha? Imaginar o que?
 entendi: Que bom que entendeu.
@@ -220,6 +262,16 @@ que bom: Obrigado pela gentileza.
 tá funcionando bem hoje: Muito bem! Obrigado por perguntar.
 Funcionando normalmente: Também estou funcionando, que bom que esteja também.
 Funcionando: Também estou funcionando!
+
+kk: hhahahahahah
+hehe: hehehe
+haha: hhahahahha
+kjkj: hhahahahahah
+hsj: hahahahahha
+hjskh: hahahahahha
+hsjajw: hahahahahha
+kajaja: hhahahaah
+ksjsj: hhahahahha
 
 
 Oi!: Oi!!! Como vai hoje? Está animado(a)?

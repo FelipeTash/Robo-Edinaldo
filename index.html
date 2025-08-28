@@ -8,6 +8,11 @@
     body {
       font-family: Tahoma, Verdana, sans-serif;
       background: linear-gradient(135deg, #b2c6ff, #e5f0ff);
+      background-image: url('https://images.unsplash.com/photo-1560559383-338dc7faf062?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtcG9zJTIwdmVyZGVzfGVufDB8fDB8fHww');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
       height: 100vh;
       height: 100dvh;
       display: flex;
@@ -17,17 +22,17 @@
     }
 
     #janela {
-      width: min(480px, 100vw - 24px);
+      width: min(680px, 95vw - 24px);
       max-width: 100%;
-      height: min(540px, 90vh);
+      height: min(720px, 95vh);
       max-height: calc(100dvh - 24px);
-      background: rgba(255, 255, 255, 0.85);
+      background: rgba(255, 255, 255, 0.75);
       border: 2px solid #6a8dff;
       border-radius: 12px;
       box-shadow: 0 0 15px rgba(0,0,0,0.3);
       display: flex;
       flex-direction: column;
-      backdrop-filter: blur(6px);
+      backdrop-filter: blur(8px);
     }
 
     #titulo {
@@ -44,7 +49,7 @@
       flex: 1;
       padding: 12px;
       overflow-y: auto;
-      background: rgba(255, 255, 255, 0.6);
+      background: rgba(255, 255, 255, 0.2);
       border-bottom: 2px solid #6a8dff;
       font-size: 14px;
     }
@@ -105,7 +110,7 @@
     }
 
     /* Ajustes para telas pequenas */
-    @media (max-width: 520px) {
+    @media (max-width: 720px) {
       #titulo {
         font-size: 16px;
       }
@@ -129,11 +134,11 @@
 </head>
 <body>
   <div id="janela">
-    <div id="titulo">💬 Robô Edinaldo</div>
+    <div id="titulo">Robô Edinaldo</div>
     <div id="chat"></div>
     <div id="input-area">
       <input type="text" id="mensagem" placeholder="Digite sua mensagem...">
-      <button onclick="enviar()">Enviar Mensagem</button>
+      <button onclick="enviar()">Enviar!</button>
     </div>
   </div>
 
@@ -179,7 +184,7 @@
 
       const resposta = analisarMensagem(texto);
       setTimeout(() => {
-        adicionarMensagem("Robô Ed: " + resposta, "bot");
+        adicionarMensagem("Robô Edinaldo: " + resposta, "bot");
       }, 400);
     }
 
@@ -192,7 +197,7 @@
           }
         }
       }
-      return "Não entendi o que você quis dizer.";
+      return "Não entendi o que você quis dizer. Verifique se a palavra está correta, ou com abreviações.";
     }
 
     input.addEventListener("keypress", (e) => {
